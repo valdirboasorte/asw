@@ -1,0 +1,252 @@
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.features {
+    list-style: none;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-aluno {
+    background-color: #007bff;
+}
+
+.btn-lider {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background: linear-gradient(120deg, #3498db, #2c3e50);
+}
+
+/* Elementos no background */
+.background-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    top: -100px;
+    right: -150px;
+}
+
+.background-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 260px solid rgba(255, 255, 255, 0.1);
+    bottom: -200px;
+    left: -150px;
+}
+form {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-submit {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+.btn-back {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-back:hover {
+    background-color: #0056b3;
+}
+/* ... (seu estilo atual) */
+
+/* Estilo para o botão de edição */
+.btn-edit {
+    background-color: #ffc107;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+/* ... (seu estilo atual) */
+.btn-edit {
+    background-color: #ffc107;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+.excel-style {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.excel-style th, .excel-style td {
+    border: 1px solid #ddd;
+    padding: 4px; /* Reduzido o padding para compactar a tabela */
+    width: 5px;
+    text-align: left;
+}
+
+.excel-style th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.btn-notify {
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white; /* Cor do texto no botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Borda arredondada do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.btn-notify:hover {
+    background-color: #2980b9; /* Cor de fundo do botão ao passar o mouse */
+}
+.content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px; /* Largura máxima aumentada */
+    overflow-x: auto;
+    margin: 1rem;
+    max-height: calc(100vh - 200px); /* Altura máxima ajustada */
+}
+
+/* Tabelas */
+.excel-style {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%; /* Definir a largura máxima da tabela */
+}
